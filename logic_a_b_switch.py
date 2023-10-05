@@ -11,7 +11,7 @@ from .primitives import (
 )
 
 @invocation(
-    "ab_switch_int", title="A B Switch (Integer)", tags=["primitives", "logic", "switch", "integer"], category="logic", version="1.0.0"
+    "ab_switch_int", title="A B Switch (Integer)", tags=["logic", "switch", "integer"], category="logic", version="1.0.0"
 )
 class ABSwitchInt(BaseInvocation):
     """Switch between A and B for output"""
@@ -24,7 +24,7 @@ class ABSwitchInt(BaseInvocation):
         return IntegerOutput(value = self.b if self.switch else self.a)
 
 @invocation(
-    "ab_switch_float", title="A B Switch (Float)", tags=["primitives", "logic", "switch", "float"], category="logic", version="1.0.0"
+    "ab_switch_float", title="A B Switch (Float)", tags=["logic", "switch", "float"], category="logic", version="1.0.0"
 )
 class ABSwitchFloat(BaseInvocation):
     """Switch between A and B for output"""
