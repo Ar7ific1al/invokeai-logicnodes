@@ -1,7 +1,6 @@
 # Logic Nodes
 Logic nodes are something I've needed for various things in InvokeAI node graphs for some time.
 
-# Nodes
 ## A/B Switch
 - Switches output between A and B. If `switch` then output `b` else output `a`.
 
